@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To generate the customer id",
+        "description": "",
+        "id": "generate-customer-id;to-generate-the-customer-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45509464262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should launch browser and load url",
+            "match": {
+              "location": "CusId.user_should_launch_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47013000868,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should give valid detail",
+            "match": {
+              "location": "CusId.user_should_give_valid_detail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 350161350,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Display customer id",
+            "match": {
+              "location": "CusId.display_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "generate customer ID",
+    "description": "",
+    "id": "generate-customer-id",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/scenerio.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
